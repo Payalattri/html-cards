@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        box-sizing: border-box;
+        margin: 0;
+    }
+    .container{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        background-image: url(animal.jpg);
+        background-size: cover;
+       
+
+    }
+    .box1{
+        width: 300px;
+        height: 425px;
+        background-image: url(paret.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+        box-shadow: 4px 6px 20px;
+        
+        
+        
+        
+    }
+    .box2{
+        width: 300px;
+        height: 425px;
+        background-image: url(monkey.jpg);
+        background-size: cover;
+        position: relative;
+        box-shadow: 4px 6px 20px;
+        
+    }
+    .box3{
+        width: 300px;
+        height: 425px;
+        background-image: url(flying\ birds.jpg);
+        background-size: cover;
+        position: relative;
+        box-shadow: 4px 6px 20px;
+    }
+    .over1{
+        background-color: rgba(0, 0, 0, 0.220);
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+
+    }
+    .over2{
+        background-color: rgba(0, 0, 0, 0.220);
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        
+    }
+    .over3{
+        background-color: rgba(0, 0, 0, 0.6);
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+    .box1 h1 {
+        color: rgb(255, 255, 255);
+        position: absolute;
+        top: 200px;
+        left: 20px;
+        font-weight: bold;
+        
+        }
+        .p{
+            color: bisque;
+            position: absolute;
+            top: 250px;
+            left: 20px;
+            font-size: 30px;
+        }
+        .box2 h1 {
+            color: rgb(255, 255, 255);
+        position: absolute;
+        top: 200px;
+        left: 20px;
+        font-weight: bold;
+        }
+        .pr{
+            color: bisque;
+            position: absolute;
+            top: 250px;
+            left: 20px;
+            font-size: 30px;
+        }
+        .box3 h1{
+            color: rgb(255, 255, 255);
+        position: absolute;
+        top: 200px;
+        left: 20px;
+        font-weight: bold;
+        }
+        .pt{
+            color: beige;
+            position: absolute;
+            top: 250px;
+            left: 20px;
+            font-size: 30px;
+        }
+   
+</style>
+<body>
+    <div class="container">
+        <div class="box1">
+            
+        <div class="over1"></div>
+        <h1>Parrot,</h1>
+            <p class="p">Parrots are the only creatures that display true tripedalism, using their necks and beaks as limbs.</p>
+        </div>
+        <div class="box2">
+            
+        <div class="over2"></div>
+        <h1>Monkey,</h1>
+            <p class="pr"> Monkey is a common name that may refer to most mammals of the infraorder Simiiformes, </p>
+        </div>
+        <div class="box3">
+            
+        <div class="over3"></div>
+        <h1>flying  birds,</h1>
+            <p class="pt"> Birds is the primary mode of locomotion used by most bird species in which birds take off and fly. </p>
+        </div>
+
+    </div>
+</body>
+</html>
